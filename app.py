@@ -18,6 +18,7 @@ weight = float(input("Enter your Weight (KG) : "))
 result = weight / (hInMeter**2)
 print(result)
 bmi = round(result, 2)
+# Condition
 if bmi < 18.5:
     print(f"Your BMI is {bmi} it's Underweight.Eat healthy food regulerly.")
 elif bmi <= 24.9:
